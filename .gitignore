@@ -1,0 +1,9 @@
+.idea
+.iml
+.idea/*
+.idea/workspace.xml
+.idea/
+*.pyc
+.pyc
+.virtual
+static/uploads/*

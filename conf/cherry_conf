@@ -1,0 +1,20 @@
+[global]
+server.socket_host: "0.0.0.0"
+server.socket_port: 8000
+request.show_tracebacks: True # Default debugging
+root_dir: web.current_dir
+log.access_file: "/var/log/cherrypy/access.log"
+log.error_file: "/var/log/cherrypy/error.log"
+
+[/]
+tools.sessions.on: True
+tools.encode.on: True
+tools.encode.encoding: 'UTF-8'
+tools.decode.on: True
+tools.decode.encoding: 'UTF-8'
+
+[/static]
+tools.staticdir.root: web.current_dir
+tools.staticdir.debug: True,
+tools.staticdir.on: True
+tools.staticdir.dir: 'static'

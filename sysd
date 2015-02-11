@@ -1,0 +1,8 @@
+#!/bin/bash
+
+PY_DIR=/opt/python
+APP_NAME=basic
+
+$PY_DIR/virtualenvs/$APP_NAME/bin/python $PY_DIR/apps/$APP_NAME/web.py
+
+
